@@ -45,7 +45,7 @@ async function draw(txt){
   if(logo){g.drawImage(logo,(W-logo.width)/2,top);
     g.textAlign="center";g.textBaseline="top";
     g.font="bold 15px 'Courier New',monospace";g.fillText("Cocody Anono, Abidjan",W/2,top+lh+8);
-    g.font="bold 13px 'Courier New',monospace";g.fillText("Tél : 07 09 71 16 50",W/2,top+lh+28);g.textAlign="left";}
+    g.font="bold 17px 'Courier New',monospace";g.fillText("07 09 71 16 50",W/2,top+lh+28);g.textAlign="left";}
   g.font="bold "+fs+"px 'Courier New',monospace";g.textBaseline="top";
   const cw=g.measureText("M").width,sc=Math.min(1,(W-8)/(cw*32));
   g.setTransform(sc,0,0,1,4,head);lines.forEach((l,i)=>g.fillText(l,0,i*LH));
